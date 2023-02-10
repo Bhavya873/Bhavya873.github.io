@@ -1,0 +1,52 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     class="svg-snoweb svg-theme-light"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     viewBox="0 0 4000 7960"
+     preserveAspectRatio="xMidYMid slice"
+>
+<defs>
+    <style>
+        
+            
+            
+            
+        
+
+        .svg-fill-primary {
+            fill: #090D49;
+        }
+
+        .svg-fill-secondary {
+            fill: #65CDAE;
+        }
+
+        .svg-fill-tertiary {
+            fill: #E5E7EB;
+        }
+
+        .svg-stroke-primary {
+            stroke: #090D49;
+        }
+
+        .svg-stroke-secondary {
+            stroke: #65CDAE;
+        }
+
+        .svg-stroke-tertiary {
+            stroke: #E5E7EB;
+        }
+    </style>
+</defs>
+    
+    <defs>
+        <pattern id="unit-202302-0903-1431-1cf4f79b-36b5-443a-a4f8-fbea492d2ce0" x="0" y="0" width="100" height="199"
+                 patternUnits="userSpaceOnUse">
+            <path class="svg-fill-primary" d="M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z"></path>
+        </pattern>
+    </defs>
+    <rect width="4000" height="7960" fill="url(#unit-202302-0903-1431-1cf4f79b-36b5-443a-a4f8-fbea492d2ce0)"></rect>
+</svg>
