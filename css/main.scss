@@ -310,4 +310,16 @@ section {
     }
 }
 
+.circle{
+    animation: circleAnim is infinite alternate-reverse;
+}
 
+@keyframes circleAnim {
+    from{
+        transform: translate(262px, 798px);
+        z-index: 5;
+    }
+    from{
+        transform: translate(262px, 830px);
+    }
+}
