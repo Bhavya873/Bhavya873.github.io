@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <div class="nav-container">
+    <div class="nav-container" id="Main">
       <header>
         <a href="index.html" class="logo">Bhavya Modi</a>
         <nav>
-          <ul>
-            <li><a href="">My Work</a></li>
-            <li><a href="">My Skills</a></li>
-            <li><a href="">Hire me</a></li>
+          <ul class="SamePageLinks">
+            <li><a href="#FeaturedLink">Featured</a></li>
+            <li><a href="#SkillsLink">Skills</a></li>
+            <li><a href="#ProjectLink">Projects</a></li>
           </ul>
         </nav>
       </header>
@@ -165,13 +165,13 @@
       </svg>
     </div>
 
-    <section class="featured">
+    <section class="featured" id="FeaturedLink">
       <div class="left">
         <div class="inner transition2">
           <p class="subtitle">Featured Project</p>
           <a href="#" class="featured-title"> DesignCourse.com ReDesign</a>
 
-          <p class="featured-desc">Some random text</p>
+          <p class="featured-desc" >Some random text</p>
         </div>
       </div>
       <img
@@ -181,7 +181,7 @@
       />
     </section>
 
-    <section class="skills">
+    <section class="skills" id="SkillsLink">
       <div class="skills-container">
         <ul>
           <li class="transition2">
@@ -209,7 +209,7 @@
       </div>
     </section>
 
-    <section class="portfolio">
+    <section class="portfolio" id="ProjectLink">
       <div class="portfolio-container transition3">
         <div class="portfolio-left">
           <div class="inner">
@@ -257,6 +257,11 @@
         </div>
         <a href="#"><img src="/images/Image_2.png" alt="Image_2" /> </a>
       </div>
+
+        <div class="portfolio-container transition3">
+            <a href="#Main"><p class="subtitle">👆 Back to the top 👆</p></a>
+        </div>
+
     </section>
 
     <script
