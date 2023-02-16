@@ -119,10 +119,11 @@ section {
 
 .featured-desc {
   color: #3b3b3b;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   font-size: 0.85em;
-  line-height: 1.8em;
+  line-height: 1.9em;
   font-weight: 500;
+  margin-right: 4em;
 }
 
 .skills {
@@ -166,15 +167,22 @@ section {
   margin-bottom: 2em;
 }
 
+.featured img {
+  border-radius: 1em;
+}
+
 @media only screen and (min-width: 800px) {
-  .featured, .portfolio {
+  .featured,
+  .portfolio {
     text-align: left;
   }
-  .featured, .portfolio-container {
+  .featured,
+  .portfolio-container {
     display: grid;
     grid-template-columns: 40% auto;
   }
-  .left, .portfolio-left {
+  .left,
+  .portfolio-left {
     display: grid;
     place-content: center;
   }
@@ -225,11 +233,11 @@ section {
   .social-header ul {
     display: flex;
     justify-content: space-between;
-    width: 7em;
+    width: 10em;
     float: right;
   }
   .social-header ul img {
-    width: 20px;
+    width: 30px;
   }
   .hero {
     display: grid;
